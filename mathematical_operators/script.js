@@ -30,3 +30,26 @@ const convert = () => {
   cm.value = `${InchToCm}`;
   convertFinal.innerHTML = `${inch} inch is ${InchToCm} centimeter.`;
 };
+
+/*--Task 4--*/
+
+const bodyMass = document.getElementById('bodyMass');
+
+const calculateMass = () => {
+  const weight = document.getElementById('weight');
+  const height = document.getElementById('height');
+  const BMI = weight.value / (height.value * height.value);
+
+  if (BMI < 18.5) {
+    bodyMass.innerHTML = `Your Body Mass Index is : ${BMI}. BMI Weight Status : Underweight`;
+  }
+  if (BMI > 18.5 && BMI < 24.9) {
+    bodyMass.innerHTML = `Your Body Mass Index is : ${BMI}. BMI Weight Status : Normal or Healthy Weight`;
+  }
+  if (BMI > 25 && BMI < 29.9) {
+    bodyMass.innerHTML = `Your Body Mass Index is : ${BMI}. BMI Weight Status : Overweight`;
+  }
+  if (BMI > 30) {
+    bodyMass.innerHTML = `Your Body Mass Index is : ${BMI}. BMI Weight Status : Obese`;
+  }
+};

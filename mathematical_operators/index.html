@@ -126,6 +126,27 @@
             range: BMI Weight Status Below 18.5 Underweight 18.5 – 24.9 Normal
             or Healthy Weight 25.0 – 29.9 Overweight 30.0 and Above Obese
           </h4>
+          <div class="mt-3">
+            <h5 class="text-info">Calculate body mass index</h5>
+            <div class="my-2">
+              <label for="weight">Weight in kg</label>
+              <input class="px-1" id="weight" type="number" />
+            </div>
+            <div class="my-2">
+              <label for="height">Height in m</label>
+              <input class="px-1" id="height" type="number" />
+            </div>
+            <div class="my-2">
+              <button
+                class="btn btn-outline-info"
+                type="submit"
+                onclick="calculateMass()"
+              >
+                Calculate
+              </button>
+            </div>
+            <p class="p-3" id="bodyMass"></p>
+          </div>
         </div>
       </section>
     </div>
