@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="mathematical.css" />
+    <title>Mathematical Operators</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-primary text-center p-4">Mathematical Operators</h2>
+      <!-- task 1 -->
+
+      <section class="card p-3 mx-auto bg-light">
+        <div class="card-body">
+          <h4>
+            1. Make a program that asks the price of the gasoline and amount of
+            money from the user. The program calculates how much gasoline the
+            user gets with the money. Result is printed to the user.
+          </h4>
+          <div class="mt-3">
+            <h5 class="text-info">How much Gasoline will you get?</h5>
+            <div class="my-2">
+              <label for="price">Price of Gasoline in litres</label>
+              <input class="px-1" type="number" id="price" />
+            </div>
+            <div class="my-2">
+              <label for="amount">Amount</label>
+              <input class="px-1" type="number" id="amount" />
+            </div>
+            <div class="my-2">
+              <button
+                class="btn btn-outline-info"
+                type="submit"
+                onclick="submitGasoline()"
+              >
+                Calculate
+              </button>
+            </div>
+            <p id="result"></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- task 2 -->
+
+      <section class="card p-3 mx-auto bg-light">
+        <div class="card-body">
+          <h4>
+            2. Make a program that calculates and prints out the average speed.
+            Ask from the user distance and the time that was used. With those
+            values program calculates the average speed and prints it to the
+            user.
+          </h4>
+          <div class="mt-3">
+            <h5 class="text-info">Calculate your average speed</h5>
+            <div class="my-2">
+              <label for="distance">Distance in cm</label>
+              <input class="px-1" type="number" id="distance" />
+            </div>
+            <div class="my-2">
+              <label for="time">Time Taken in hrs</label>
+              <input class="px-1" type="number" id="time" />
+            </div>
+            <div class="my-2">
+              <button
+                class="btn btn-outline-info"
+                type="submit"
+                onclick="averageSpeed()"
+              >
+                Calculate
+              </button>
+            </div>
+            <p id="speed"></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- task 3 -->
+
+      <section class="card p-3 mx-auto bg-light">
+        <div class="card-body">
+          <h4>
+            3. Make a program that transforms inches to centimeter. 1 inch =
+            2.54 cm The answer should be in this form:”x incs is y centimeter.”
+          </h4>
+          <div class="mt-3">
+            <h5 class="text-info">Convert inches to centimeter</h5>
+            <div class="my-2">
+              <label for="inch">Inch</label>
+              <input class="px-1" id="inch" type="number" />
+            </div>
+            <div class="my-2">
+              <label for="cm">cm</label>
+              <input class="px-1" id="cm" type="number" />
+            </div>
+            <div class="my-2">
+              <button
+                class="btn btn-outline-info"
+                type="submit"
+                onclick="convert()"
+              >
+                Covert
+              </button>
+            </div>
+            <p class="p-3" id="convertFinal"></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- task 4 -->
+
+      <section class="card p-3 mx-auto bg-light">
+        <div class="card-body">
+          <h4>
+            4. Make a program that calculates body mass index. The BMI is
+            defined as the body mass divided by the square of the body height,
+            and is universally expressed in units of kg/m2, resulting from mass
+            in kilograms and height in metres. Based on result display correct
+            range: BMI Weight Status Below 18.5 Underweight 18.5 – 24.9 Normal
+            or Healthy Weight 25.0 – 29.9 Overweight 30.0 and Above Obese
+          </h4>
+        </div>
+      </section>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+This speed module is a speed test divided into 10 small subjects. Each subject worth 1 point. You have got 1 hour to do as many subjects as possible.
+
+JavaScript (10 tasks)
+
+Task 1
+You have to create a javascript function that counts from 0 to 100. When reaching 100, the counter gets back to 0 and keeps counting. You will display the counter in the console of the browser with a speed of 120 ms.
+
+Task 2
+You have to make the character to run by displaying the images runner1, runner2, runner3 and runner4 with a speed of 60ms.
+
+Task 3
+You have to animate the red circle with javascript. It has to move from left 0 to the right 300px and then stop.
+
+Task 4
+When you scroll to 200px, and beyond, the popup #popup has to be displayed. If you scroll back under 200px, the popup has to be hidden.
+
+Task 5
+When you hit “Enter” on your keyboard, the message “Bravo” has to be displayed in an alert box. If you press some other keys „Try again“ will be displayed on the console.
+
+Task 6
+The height of the first div #div1 always has to be equal to the width of the second div #div2. At window resize, you should display in the console:
+•	the width of the second div #div2
+•	the height of the first div #div1
+
+
+Task 7
+When the page loads, a popup has to be displayed with the following question: “Do you know a bit already about Javascript” When clicking on “yes” the popup close itself and the message “:)” has to be displayed in the console of the browser.
+
+Task  8
+You have to create a function which replaces all “e” in a string by “o”. This function is executed when clicking the “Transform” button and take the typed string (text input) as an argument. The modified string has then to be displayed in the console of the browser.
+
+Task  9
+Make new object which contains: {“coucou”: “hello”, “comment”: “how”, “va”: “are”, “tu”:” you”}. Create two arrays from this object:
+-	The 1st one : [“coucou”, “comment”, “va”, “tu”]
+-	The 2nd one: [“hello”, “how”, “are”, “you”]
+You have then to display those two arrays in the console of the browser.
+
+Task  10
+You have array with transport lines ["line n°1", "bus n°24", "tramway n°3", "line n°2", "bus n°20", "tramway n°312", "line n°130", "bus n°28", "tramway n°20", "line n°101"].
+You should order the lines increasingly by their number and display the result in the console of the browser.
+Example : ["line n°1", "line n°101", "line n°130", "line n°2"]
+Extra : get lines array sorted as : ["line n°1", "line n°2", "line n°101", "line n°130"]
