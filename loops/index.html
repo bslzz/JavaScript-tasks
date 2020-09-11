@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Loops</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-primary text-center p-4">Loops</h2>
+
+      <!-- Task 1 -->
+
+      <section class="card p-3 mx-auto bg-light">
+        <div class="card-body">
+          <h4>
+            1. Make a program that prints all positive numbers that are odd and
+            smaller than 100 starting from 1. (1 3 5 7 9 11…)
+          </h4>
+          <button class="btn btn-outline-info" type="submit" onclick="oddNum()">
+            Print
+          </button>
+          <p class="pt-3" id="result"></p>
+        </div>
+      </section>
+
+      <!-- Task 2 -->
+
+      <section class="card p-3 mx-auto bg-light">
+        <div class="card-body">
+          <h4>
+            2. Make a program that prints all positive numbers that are smaller
+            than 100 and even, in this order: 2 98 4 96 6 94 …
+          </h4>
+          <button
+            class="btn btn-outline-info"
+            type="submit"
+            onclick="evenNum()"
+          >
+            Print
+          </button>
+          <p class="pt-3" id="even"></p>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
