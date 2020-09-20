@@ -16,7 +16,7 @@ const speed = document.getElementById('speed');
 
 const averageSpeed = () => {
   let averageSpeed = distance.value / time.value;
-  speed.innerHTML = `The Average Speed of the user is : ${averageSpeed} cm/hr`;
+  speed.innerHTML = `The Average Speed of the user is : ${averageSpeed} km/hr`;
 };
 
 /*--Task 3--*/

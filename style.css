@@ -17,3 +17,12 @@ button:focus {
 section {
   margin: 1rem 0;
 }
+
+.js {
+  height: 100vh;
+  width: 100vw;
+}
+
+.backgrd {
+  background-color: #e3f2fd;
+}
