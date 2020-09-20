@@ -1,17 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import './variables';
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: 'Poppins', sans-serif;
-}
-
-button:active,
-button:focus {
-  box-shadow: none !important;
+button {
+  &:active,
+  &:focus {
+    box-shadow: none !important;
+  }
 }
 
 section {
@@ -24,5 +17,5 @@ section {
 }
 
 .backgrd {
-  background-color: #e3f2fd;
+  background-color: $homeBackgroundColor;
 }
